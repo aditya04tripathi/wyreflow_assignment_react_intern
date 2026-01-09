@@ -9,7 +9,7 @@ A modern, responsive React implementation of the Wyreflow About page, migrated f
 ## 📋 Table of Contents
 
 - [Overview](#overview)
-- [Key Improvements](#key-improvements)
+- [Key Improvements](#key-improvements-over-original-website)
 - [Tech Stack](#tech-stack)
 - [Features](#features)
 - [Responsive Design](#responsive-design)
