@@ -1,0 +1,164 @@
+/* Faq section 5 */
+
+.faq-section {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  padding: 50px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.faq-section h2 {
+  font-size: 2.5rem;
+  text-align: left;
+  margin: 40px;
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.faq-item {
+  border-bottom: 1px solid #333;
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 40px;
+  letter-spacing: 2px;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.faq-answer {
+  display: none;
+  margin: 20px;
+  font-size: 1.1rem;
+  margin-top: 15px;
+  color: #ccc;
+  padding-left: 20px;
+}
+
+.icon {
+  font-size: 2.2rem;
+  transition: transform 0.3s ease;
+}
+
+/* Rotate icon when active */
+.faq-item.active .icon {
+  transform: rotate(180deg);
+}
+
+.faq-item.active .faq-answer {
+  display: block;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .faq-section h2 {
+    font-size: 2.2rem;
+  }
+
+  .faq-question {
+    font-size: 1.4rem;
+    margin: 15px 30px;
+  }
+
+  .faq-answer {
+    margin: 30px;
+    font-size: 0.95rem;
+  }
+
+  .icon {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .faq-section h2 {
+    font-size: 2rem;
+    margin: 30px;
+  }
+
+  .faq-question {
+    font-size: 1.3rem;
+    margin: 15px 20px;
+  }
+
+  .faq-answer {
+    margin: 20px;
+    font-size: 0.9rem;
+  }
+
+  .icon {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .faq-section h2 {
+    font-size: 1.8rem;
+    margin: 20px;
+  }
+
+  .faq-question {
+    font-size: 1.2rem;
+    margin: 10px 15px;
+  }
+
+  .faq-answer {
+    margin: 15px;
+    font-size: 0.85rem;
+    padding-left: 15px;
+  }
+
+  .icon {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .faq-section {
+    padding: 30px 15px;
+  }
+
+  .faq-section h2 {
+    font-size: 1.8rem;
+    margin: 15px 10px 25px 10px;
+    letter-spacing: 1px;
+  }
+
+  .faq-item {
+    padding: 18px 0;
+  }
+
+  .faq-question {
+    font-size: 1.05rem;
+    margin: 0 10px;
+    letter-spacing: 0.5px;
+    gap: 15px;
+  }
+
+  .faq-answer {
+    margin: 15px 10px;
+    font-size: 0.95rem;
+    padding-left: 10px;
+    line-height: 1.6;
+  }
+
+  .icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+  }
+}
+
+@media (min-width: 580px) and (max-width: 938px) and (max-height: 1024px) {
+  .faq-answer {
+    margin: 10px 0px;
+    font-size: 0.9rem;
+  }
+}
