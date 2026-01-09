@@ -181,16 +181,12 @@ The application is fully responsive with breakpoints at:
 - **CSS Custom Properties**: Used for consistent theming
 - **BEM-like Naming**: Clear, descriptive class names
 
-## 📝 License
+## License
 
 This project is part of an assignment for Wyreflow Technologies.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Original design and content by [Wyreflow Technologies](https://wyreflow.com)
 - Icons by [Boxicons](https://boxicons.com)
 - Fonts: Satoshi and Roboto from Google Fonts
-
----
-
-**Built with ❤️ using React and TypeScript**
